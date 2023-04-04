@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.section{
+    background-image: url('./good.avif');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+    background-size: contain;
+    background-color: #aaa;
+}
+.content{
+    padding: 4em;
+}
+.content > h4{
+     color: #6f86d6;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     padding-bottom: 1em;
+     text-transform: capitalize;
+}
+
+.para{
+    /* color: #006655; */
+    color: rgba(128, 0, 128, 0.644);
+    font-size: 12px;
+    line-height: 2;
+}
+.content > p{
+    color:  rgba(128, 0, 128, 0.644);
+    width: 40%;
+    font-size: 20px;
+}
+.content > h6{
+    color: #aaa;
+    margin-top: 3em;
+    background: #000;
+    width: 90px;
+    height: 35px;
+    padding: 0.6em;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.logo2{
+    width: 300px;
+    height: 100px;
+    margin-left: 4em;
+}
+
+@media (max-width: 768px) {
+    .section{
+        background-position: bottom;
+    }
+    .content{
+        padding: 0;
+    }
+
+    .para{
+        font-size: 12px;
+        line-height: 1;
+    }
+    .content > p{
+        width: 60%;
+        font-size: 10px;
+        padding-left: 6em;
+        color: #055;
+    }
+
+    .content > h4{
+        text-align: center;
+        padding-top: 2em;
+   }
+
+   .content > h6{
+    margin-top: 1em;
+    width: 90px;
+    padding: 0.6em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+
+}
+
+.logo2{
+    margin-left: 1em;
+    align-self: center;
+    justify-self: center;
+}
+    
+}
