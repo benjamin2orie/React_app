@@ -14,7 +14,6 @@ function App() {
       <Route path='/about' element = {<AboutPage/>}/>
       <Route path='/service' element = {<ServicesPage/>}/>
      </Routes>
-     
      <Meet text ='my meet up'/>
      <Meet text = 'my name'/>
      <Meet text = 'contact information'/>
