@@ -1,21 +1,4 @@
-/* .list{
-    color: red;
-    text-transform:capitalize;
-    font-size: 20px;
-    font-family: Arial, HElvetica, sans-serif;
-    text-align: center;
-    list-style: none;
 
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-}
-.list:hover{
-    color: #000;
-    cursor: pointer;
-    border-bottom-color: 1px solid red;
-} */
 *{
     padding: 0;
     margin:0;

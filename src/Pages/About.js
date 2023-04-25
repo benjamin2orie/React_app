@@ -4,7 +4,6 @@ import styles from './About.module.css';
 import More from './More';
 import Footer from './Footer';
 import {MdOutlineDone}     from "react-icons/md";
-
 import {MdSend} from 'react-icons/md';
 function AboutPage(){
     /* defining the stae of login input here */

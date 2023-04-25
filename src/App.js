@@ -8,15 +8,16 @@ import NavBar from './Components/layout/NavBar';
 function App() {
   return (
     <div className="App">
+        <Meet text ='my meet up'/>
+     <Meet text = 'my name'/>
+     <Meet text = 'contact information'/>
       <NavBar/>
      <Routes>
       <Route path='/home' element = {<HomePage/>}/>
       <Route path='/about' element = {<AboutPage/>}/>
       <Route path='/service' element = {<ServicesPage/>}/>
      </Routes>
-     <Meet text ='my meet up'/>
-     <Meet text = 'my name'/>
-     <Meet text = 'contact information'/>
+    
     </div>
   );
 }

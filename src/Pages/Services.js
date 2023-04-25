@@ -5,8 +5,9 @@ import Axios from 'axios';
 import {MdPhone} from  'react-icons/md';
 import {MdEmail} from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
-// import { MdOpencity } from 'react-icons/md';
-// import axios from 'react'
+
+
+
 // const user ={
 //     name: 'john doe',
 //     color: 'red',
