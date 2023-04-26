@@ -1,4 +1,5 @@
 // import { Form } from 'react-router-dom';
+import greeting from './greeting.avif';
 function Meet(props) {
     return(
         
@@ -6,6 +7,7 @@ function Meet(props) {
             <div className ="head">
                 <p>This is my react project project so as a front-end developers</p>
             </div>
+            <img src ={greeting} alt = "background"/>
         </header>
       
     )
