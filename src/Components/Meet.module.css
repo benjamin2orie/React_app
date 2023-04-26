@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.head{
+.heads{
     background-color: red;
+    color: #5543;
+    font-size: 3em;
 }

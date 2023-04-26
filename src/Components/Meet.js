@@ -5,7 +5,7 @@ function Meet() {
     return(
         
         <header className = {styles.head}>
-            <div className ="head">
+            <div className ={styles.heads}>
                 <p>This is my react project project so as a front-end developers</p>
             </div>
             <img src ={logo} alt = "background" />
