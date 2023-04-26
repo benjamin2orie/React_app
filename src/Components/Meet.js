@@ -4,7 +4,7 @@ function Meet(props) {
         
         <header className = "head">
             <div className ="head">
-                <p>{props.text}</p>
+                <p>This is my react project project so as a front-end developers</p>
             </div>
         </header>
       
