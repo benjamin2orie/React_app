@@ -1,5 +1,5 @@
 // import { Form } from 'react-router-dom';
-import greeting from './greeting.avif';
+import logo from './logo.avif';
 function Meet() {
     return(
         
@@ -7,7 +7,7 @@ function Meet() {
             <div className ="head">
                 <p>This is my react project project so as a front-end developers</p>
             </div>
-            <img src ={greeting} alt = "background" />
+            <img src ={logo} alt = "background" />
         </header>
       
     )
