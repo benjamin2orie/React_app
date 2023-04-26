@@ -1,6 +1,6 @@
 // import { Form } from 'react-router-dom';
 import greeting from './greeting.avif';
-function Meet(props) {
+function Meet() {
     return(
         
         <header className = "head">
