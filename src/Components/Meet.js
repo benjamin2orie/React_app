@@ -7,7 +7,7 @@ function Meet(props) {
             <div className ="head">
                 <p>This is my react project project so as a front-end developers</p>
             </div>
-            <img src ={greeting} alt = "background"/>
+            <img src ={greeting} alt = "background" />
         </header>
       
     )
