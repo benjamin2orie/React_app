@@ -1,14 +1,13 @@
 // import { Form } from 'react-router-dom';
 import styles from './Meet.module.css';
-import logo from './logo.avif';
+// import logo from './greeting.avif';
 function Meet() {
     return(
         
         <header className = {styles.head}>
             <div className ={styles.heads}>
-                <p>This is my react project project so as a front-end developers</p>
             </div>
-            <img src ={logo} alt = "background" />
+            <p className={styles.para}>copyright &copy; 2023</p>
         </header>
       
     )
