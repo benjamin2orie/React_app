@@ -21,6 +21,7 @@ body{
     width: 200px;
     height: 100px;
     margin: 2em;
+    margin-bottom: 15em;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
@@ -51,6 +52,7 @@ body{
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
     margin: 2em;
+    margin-bottom: 16em;
 }
 .focus > ul{
     list-style: none;
