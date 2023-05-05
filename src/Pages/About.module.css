@@ -85,16 +85,21 @@
 
 }
 .register{
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    width:200px;
-    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    width:400px;
+    height: 500px;
     margin:3em;
     margin-top: 2em;
     background: #aaa;
-    width: 300px;
-    height: 200px;
+    /* width: 300px; */
+    /* height: 200px; */
     padding: 3em;
     padding-top: 1.5em;
     opacity: 0.4;
@@ -112,7 +117,7 @@
     border-radius: 20px;
     padding-left: 2em;
     border: 1px solid #fff;
-    margin: 0.1em;
+    margin: 1em;
     color:#000;
     outline: none;
 }
@@ -126,6 +131,64 @@
     margin: 0.1em;
 
 }
+input:invalid{ 
+    border: 1px solid red;
+}
+
+/* .fullNames{
+    padding-left: 4em;
+    color: #2889;
+    font-size: 20px;
+    margin-right: 3em;
+} */
+
+.message{
+    color: red;
+    padding-top: 1em;
+    margin-left: 4em;
+    font-size: 15px;
+}
+.maxLength{
+    color:red;
+    padding-top: 1em;
+    margin-left: 3em;
+    font-size: 20px;
+}
+
+/* .passwords{
+    color:#2889;
+    font-size: 20px;
+    padding-left: 4em;
+    margin-right: 1.6em;
+} */
+.msg{
+    color: red;
+    padding-top: 1em;
+    margin-left: 4em;
+    font-size: 15px;
+}
+.msg2{
+    color: red;
+    padding-top: 1em;
+    margin-left: 3em;
+    font-size: 15px;
+}
+
+.needed{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.minLengths{
+    color: red;
+    font-size: 15px;
+}
+.maxLengths{
+    color: red;
+    font-size: 15px;
+}
+
 
 .btn2{
     width: 50px;
@@ -167,6 +230,13 @@
         font-size:10px;
         gap: 1px;
         color: #cccfec;
+    }
+    .maxLength,
+    .msg2{
+        margin-left: 1em;
+    }
+    .register{
+        width: 300px;
     }
     
    }
