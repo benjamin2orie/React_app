@@ -20,8 +20,8 @@
 @media  (max-width: 768px) {
     .heads{
         background-size: contain;
-        height: 40vh;
-        width: 400px;
+        height: 30vh;
+        width: 50px;
         /* height:241px; */
         /* width: 360px */
     }
