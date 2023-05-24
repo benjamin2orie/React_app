@@ -20,8 +20,7 @@
 @media  (max-width: 768px) {
     .heads{
         background-size: contain;
-        height:30vh;
-        width: 470px;
+        height:3vh;
     }
     .para{
         background: #3344;
