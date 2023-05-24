@@ -4,11 +4,17 @@ import styles from './Meet.module.css';
 function Meet() {
     return(
         
-        <header className = {styles.head}>
+        <div className = {styles.head}>
             <div className ={styles.heads}>
             </div>
-            <p className={styles.para}>copyright &copy; 2023</p>
-        </header>
+            <footer className ={styles.para}>
+            <p>copyright &copy; 2023</p>
+
+            </footer>
+            
+        </div>
+        
+        
       
     )
 }

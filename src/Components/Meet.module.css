@@ -10,15 +10,18 @@
     height: 100vh;
 }
 .para{
-    color: #000;
+    color: #3AA;
     text-align: center;
     font-size: 20px;
+    padding-top: 0.8em;
+    background: #ccc;
+    height: 50px;
 }
 @media  (max-width: 768px) {
     .heads{
         background-size: contain;
-        height:33.4vh;
-        /* width: 400px; */
+        height:30vh;
+        width: 412px;
     }
     .para{
         background: #3344;
