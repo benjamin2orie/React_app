@@ -17,16 +17,51 @@
     background: #ccc;
     height: 50px;
 }
+
+.sectionContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.reduceImageSize1,
+.reduceImageSize2,
+.reduceImageSize3,
+.reduceImageSize4,
+.reduceImageSize5,
+.reduceImageSize6,
+.reduceImageSize7,
+.reduceImageSize8,
+.reduceImageSize9{
+    width: 100%;
+}
 @media  (max-width: 768px) {
     .heads{
         background-size: 100%;
         height: 30vh;
-        /* width: 200px; */
-        /* height:241px; */
-        /* width: 360px */
+    
     }
     .para{
         background: #3344;
     }
+
+    .sectionContainer{
+        display:grid;
+        grid-gap: 2em;
+        width: 100%;
+        border-left-color: 1px solid red;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 2em;  
+        background: #ccef;
+        padding-bottom: 8em;
+        
+        /* font-size: 10em; */
+  }
+  div > h3{
+    color: #ccefec;
+  }
     
 }
